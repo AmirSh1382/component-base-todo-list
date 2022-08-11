@@ -1,0 +1,10 @@
+.todo{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.todo-title{
+    font-size: 18px;
+    color: red;
+}

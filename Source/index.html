@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BootStrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- BootStrap Stylesheet -->
+    <link rel="stylesheet" href="./BootStrap/Css/bootstrap.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Toto list</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="wrapper col-11 col-md-10 col-lg-9 mx-auto mt-5">
+                <form class="form text-center mx-3" action="" onsubmit="event.preventDefault()">
+                    <label class="form-label" for="form-input">Add Todo...</label> <!-- add (aniamtion-show) class to show aniamtion -->
+                    <input id="form-input" class="form-input" type="text">
+                </form>
+                <div class="btn-container mt-3 ms-4">
+                    <button class="btn btn-success add-btn">Add</button>
+                    <button class="btn btn-danger clear-btn">Clear All</button>
+                </div>
+            </div>
+
+            <div class="wrapper col-11 col-md-10 col-lg-9 mx-auto mt-5">
+                <div class="todos-container">
+
+                    <!-- Todo Ex
+                    <site-new-todo>
+                        <div slot="todo-title" class="">slam</div>
+                    </site-new-todo> -->
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--  BootStrap Script  -->
+    <script src="./BootStrap/Js/bootstrap.bundle.js"></script>
+    <!-- Main Script -->
+    <script type="module" src="./Js/script.js"></script>
+</body>
+</html>
